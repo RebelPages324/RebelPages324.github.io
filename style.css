@@ -25,12 +25,13 @@ a {
   color: white;
 }
 
-a:hover {
-  background-color: yellow;
-}
-
 a:visited {
   color: inherit;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
 }
 
 a {
