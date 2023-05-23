@@ -4,36 +4,6 @@
     <meta charset="UTF-8">
     <title>Adrift into an Ocean of Static</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script>
-      function startTimer(duration, display) {
-        var timer = duration, days, hours, minutes, seconds;
-        setInterval(function () {
-          days = parseInt(timer / 86400, 10);
-          hours = parseInt((timer % 86400) / 3600, 10);
-          minutes = parseInt((timer % 3600) / 60, 10);
-          seconds = parseInt(timer % 60, 10);
-
-          days = days < 10 ? "0" + days : days;
-          hours = hours < 10 ? "0" + hours : hours;
-          minutes = minutes < 10 ? "0" + minutes : minutes;
-          seconds = seconds < 10 ? "0" + seconds : seconds;
-
-          display.textContent = days + " days " + hours + " hours " + minutes + " minutes " + seconds + " seconds";
-
-          if (--timer < 0) {
-            timer = duration;
-          }
-        }, 1000);
-      }
-
-      window.onload = function () {
-        var countDownDate = new Date("March 4, 2023 15:00:00").getTime();
-        var now = new Date().getTime();
-        var distance = countDownDate - now;
-        var display = document.querySelector('#timer');
-        startTimer(distance / 1000, display);
-      };
-    </script>
   </head>
   <body>
 	<video id="background-video" loop muted>
@@ -53,7 +23,7 @@
 		<br>
 		在制品
 	  <br><br>
-	  <a href="https://drive.proton.me/urls/MCP186WBR8#3TWueMjqLXKQ">WOT Ranked Battles 2021/2022 Season 1 Results</a>
+	  <a href="cod.html">Black Ops 2 PLUTONIUM</a>
 	  <br><br><br><br><br>
 	  </p>
     </div>
